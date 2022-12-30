@@ -1,6 +1,8 @@
 cordova-plugin-magnetometer
 ====================
 
+![Coin Detector](https://raw.githubusercontent.com/sdesalas/cordova-magnetometer-app/master/design/screenshots/CoinDetector.jpg)
+
 A magnetic field detector plugin ideal for science toolkit or metal detector apps. 
     
 The API can be accessed via single call or by placing a listener that fires a callback function repeatedly. 
@@ -10,11 +12,14 @@ It displays the raw `x`, `y`, and `z` magnetometer values as well as a computed 
 - iOS Support by [Rameez Raja](https://github.com/mrameezraja)
 - Android Support by [Steven de Salas](https://github.com/sdesalas)
 
+See [this page](https://github.com/sdesalas/cordova-magnetometer-app/blob/master/www/index.html) for a basic sample cordova app using this plugin. 
+
+For an in-depth article try this article I wrote: [How to Build a Cross-Platform Metal Detector App](http://desalasworks.com/article/how-to-build-a-cross-platform-metal-detector-app-ios-android/)
 
 Installation
 ------------
 
-<code> cordova plugin add https://github.com/kelter-antunes/cordova-plugin-magnetometer </code>
+<code> cordova plugin add https://github.com/sdesalas/cordova-plugin-magnetometer </code>
 
 
 Methods
